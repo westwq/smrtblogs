@@ -11,3 +11,11 @@ Try on [https://smrtblog-2a9wqyeti-wes-projects-44477454.vercel.app/]https://smr
 |..\api\logView|POST||```{id:[id]}```|Insert IP & location data of each view every time a blog article is viewed|
 |..\api\pricing|GET|||Retrieve pricing computed|
 |..\api\search|POST||```{search_term: [searchTerm]}```|Fuzzy search for title and content that matches [searchTerm] |
+
+## Config, CodeGen files
+- GraphQL in ./graphql*
+- CodeGen configuration files in ./codegen*.js
+- CodeGen generated src in ./generated/*.tsx
+- CodeGen generated schemas in ./*.schema.json
+- DB DDL in ./postgres.sql
+- DB DML in ./blog.sql
