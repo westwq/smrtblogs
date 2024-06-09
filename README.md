@@ -1,7 +1,7 @@
 ## Readme
 Simple NextJS app deployed on Vercel. Display a grid of blog post, track view and fuzzy search.
 
-Try on https://smrtblog-2a9wqyeti-wes-projects-44477454.vercel.app/
+Try on [https://smrtblog-2a9wqyeti-wes-projects-44477454.vercel.app/](https://smrtblog-m3hizm25t-wes-projects-44477454.vercel.app/)
 
 ## API route 
 | URL | Verb | Parameter | Request Body | Description |
