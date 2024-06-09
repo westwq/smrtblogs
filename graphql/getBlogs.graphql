@@ -1,0 +1,11 @@
+query GetBlogsById($id: Int!) {
+  blog_by_pk(id: $id) {
+    id
+    title
+    author
+    view_count
+    created_at
+    updated_at
+    content
+  }
+}

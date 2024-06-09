@@ -1,0 +1,5 @@
+query CheckViewExists($blog_id: Int!, $ip_address: String!) {
+    blog_views(where: { blog_id: { _eq: $blog_id }, ip_address: { _eq: $ip_address } }) {
+      id
+    }
+  }

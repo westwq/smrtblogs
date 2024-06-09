@@ -1,0 +1,9 @@
+query SearchBlogs($search_term: String!) {
+  search_blogs(args: { search_term: $search_term }) {
+    id
+    title
+    author
+    created_at
+    view_count
+  }
+}

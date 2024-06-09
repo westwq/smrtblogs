@@ -1,0 +1,18 @@
+query GetBlogsPage($first: Int, $after: String) {
+  blog_connection(first: $first, after: $after, order_by: { created_at: desc, view_count: desc}) {
+    edges {
+      node {
+        id
+        title
+        author
+        created_at
+        view_count
+      }
+      cursor
+    }
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+  }
+}

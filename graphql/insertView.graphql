@@ -1,0 +1,5 @@
+mutation InsertView($blog_id: Int!, $ip_address: String!, $location: String!) {
+    insert_blog_views_one(object: { blog_id: $blog_id, ip_address: $ip_address, location: $location }) {
+        id
+    }
+}
